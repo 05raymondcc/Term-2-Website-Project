@@ -2,7 +2,6 @@
 <html>
 <head>
 <title> osu fan website</title>
-	<link href="stylesheet.css" type="text/css" rel="stylesheet">
 <style>
 	h5 {
 	background-color:#440a4c;
@@ -136,6 +135,34 @@ box-shadow: 0px 0px 250px #e1a8e3;	}
 		margin-right; auto;
 		margin-left; auto;
 		}
+		<style type="text/css">
+
+
+
+
+
+
+	.spoilerbutton {display:block;margin:5px 0;}
+
+
+
+	.spoiler {overflow:hidden;background: purple;}
+
+
+
+	.spoiler > div {-webkit-transition: all 0.2s ease;-moz-transition: margin 0.2s ease;-o-transition: all 0.2s ease;transition: margin 0.2s ease;}
+
+
+
+	.spoilerbutton[value="Show"] + .spoiler > div {margin-top:-100%;}
+
+
+
+	.spoilerbutton[value="Hide"] + .spoiler {padding:5px;}
+
+
+
+</style>
 </style>
 </head>
 <body>
@@ -163,10 +190,31 @@ box-shadow: 0px 0px 250px #e1a8e3;	}
 	<img src="W8.jpg"width="300" height="200">
 	
 	<h1> osu!standard </h1>
-	
-	<p> This is the most popular gamemode out of the four, it is basically the standard version
-	of osu where explained priorly, it is clicking circles and timing the click correctly. The most 
-</p>
+	<p>
+	The most popular version of osu and the default version. There are tons of unknown 
+	mechanics that are so many times different from the other rhythm games. A regular person with no experience to
+	this type of game(rhythm games) would be hard to elucidate, therefore I will explain the mechanics right here.</p>
+	<input class="spoilerbutton" type="button" value="Show" onclick="this.value=this.value=='Show'?'Hide':'Show';">
+
+
+
+<div class="spoiler"><div><p>
+		<img src="W19.png"width="200" height="200">
+		<h3> Circle Approach Rate</h3>
+		<p>How fast the line(green line in the picture) approaches to the circle, when the line hits the circle, you have to tap it.
+		The accuracy is determined in three ways, precision, aim and UR(Unstable Rate). UR is how shaky you are 
+		when clicking the circle. The four possible accuracy points you can achieve are: MISS, 50, 100, 300. With 
+		300 being the best, and MISS obviously being the worst.</p>
+		<br>
+		<br>
+		<br>
+		<img src="W20.jpg"width="200" height="120">
+		<h3> Slider</h3>
+		<p>To score a 300 on a slider, all you have to do is to hover your cursor over the circle, and when the line hits the circle,
+		you can drag your cursor as the slider ball in the cursor moves. A 100 will be given if you hit the cursor but have not followed
+the line accurately. Last but not least, a MISS will be achieved when you don't hover and aim on anything.	</p>
+</div>
+</div>
 	<br>
 	<br>
 	<br>
@@ -176,7 +224,10 @@ box-shadow: 0px 0px 250px #e1a8e3;	}
 	<h1> osu!taiko </h1>
 
 	<p> This version of osu is out of the japanese game "taiko" but on a computer instead of playing it
-	on a drums, you do it on a keyboard, by binding Z and X to click.</p>
+	on a drums with your red and blue sticks, you tap the keys on your keyboard "Z" and "X" to hit
+	the notes that are coming out of the computer. The mechanics of this game are pretty simple and should
+	be easy to understand, therefore no need to explain it.</p>
+	
 	<br>
 	<br>
 	<br>
@@ -184,7 +235,26 @@ box-shadow: 0px 0px 250px #e1a8e3;	}
 		<img src="W10.jpg"width="300" height="200">
 	<h1> osu!mania </h1>
 	<p> This version of osu is like the mobile game <a href="https://arcaea.lowiro.com/en
-">Arcaea</a >, a rhythm game where you click tiles that appears on the screen fast. </p>
+">Arcaea</a >, a rhythm game where you click tiles that appears on the screen fast. In addition, this game
+requires lots of skill in terms of being able to function on different keys accurately with precision by tapping
+not only "Z" and "X". Please click the "Show" button for more information or a introductory mania walkthrough.</p>
+<input class="spoilerbutton" type="button" value="Show" onclick="this.value=this.value=='Show'?'Hide':'Show';">
+
+
+
+<div class="spoiler"><div><p>
+		<img src="W21.jpg"width="300" height="200">
+		<h3> The Proper Bindings for Mania</h3>
+		<p>First of all, you use a keyboard to play the game, only a keyboard. But then you have tons of keys you need
+		to get used to tapping. Since there are usually 7 different roads the keys could come from, you need 7 different
+		keys to destroy the note when it reaches you. The 7 different keys should be placed in a vertical order. For example,
+		I use ZXCVBNM which are all aligned to each other horizontally.</p>
+		<br>
+		<br>
+		<br>
+		
+</div>
+</div>
 	<br>
 	<br>
 	<br>
@@ -192,7 +262,10 @@ box-shadow: 0px 0px 250px #e1a8e3;	}
 		<img src="W11.jpg"width="300" height="200">
 	<h1> osu!ctb </h1>
 	<p> Also known as catchthebeat, this is one of the most popular japanese minigames
-	since the 20th centuary. osu!ctb is a budget version of the real japanese catchthebeat
+	since the 20th centuary. osu!ctb is a budget version of the real japanese catchthebeat, you
+are supposed to catch fruits or notes falling from the sky.	Overall
+	an easy game to understand, but when mods(stuff that make the game harder) are inputed, it does become
+	challenging. 
 	</p>
 
 	<br>
